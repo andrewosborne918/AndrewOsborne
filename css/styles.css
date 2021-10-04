@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', sans-serif;
+  margin: 0 auto 0 auto;
+  font-family: 'Over the Rainbow', sans-serif;
   font-size: 6rem;
   color: #319472;
 }
@@ -58,7 +58,6 @@ td{
 }
 
 .middle-container {
-
 }
 
 .bottom-container {
@@ -87,6 +86,7 @@ td{
   position: absolute;
   left: 250px;
   bottom: 250px;
+  z-index: 2;
 }
 
 .footer-link{
@@ -95,8 +95,11 @@ td{
   text-decoration: none;
 }
 
-.mountain-img {
-  padding-top: 5.05rem;
+.trees-img {
+  position: sticky;
+  padding-top: 4.75rem;
+  z-index: 3;
+  margin: 0 auto;
 }
 
 .profilepic{
@@ -128,7 +131,6 @@ td{
   width: 25%;
   float: left;
   margin-right: 50px;
-  colo
 }
 
 .web-design-img {
@@ -184,6 +186,6 @@ td{
 /* Color Pallette
 #319472
 #3FE0A9
-#E08634
+#653614
 #40514E
 #FFFFFF */
